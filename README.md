@@ -37,7 +37,7 @@ sum(1, 1)
 sum(1, 'a')
 ```
 
-## Execute Script / Testss
+## Execute Script / Tests
 
 ```shell
 npm start
