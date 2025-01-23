@@ -16,14 +16,15 @@ To use this repository the following software is required:
 1. Open VSCode in this directory
 1. Run Devcontainer setup
 
-## Language Introduction
+## TypeScript
 
 There is an almost endless amount of sources for TypeScript introductions. 
-One example of a solid introduction is the [The Concise TypeScript Book](https://github.com/abdessamadbettal/typescript-tutorial).
+Examples are [TypeScript Documentation](https://www.typescriptlang.org/docs/handbook/) and [The Concise TypeScript Book](https://github.com/abdessamadbettal/typescript-tutorial).
+Even more resources for JavaScript. Example: [The Modern JavaScript Tutorial](https://javascript.info/)
 
-## Interactive TypeScript Shell
+## Interactive Shell
 
-Start the interactive shell.
+Start the interactive TypeScript shell.
 
 ```shell
 npx ts-node
@@ -36,8 +37,9 @@ sum(1, 1)
 sum(1, 'a')
 ```
 
-## Run the Sample
+## Execute Script / Testss
 
 ```shell
 npm start
+npm test
 ```

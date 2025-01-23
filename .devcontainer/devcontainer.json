@@ -5,10 +5,11 @@
       "vscode": {
         "extensions": [
           "dbaeumer.vscode-eslint",
-          "esbenp.prettier-vscode"
+          "esbenp.prettier-vscode",
+          "ZixuanChen.vitest-explorer"
         ]
       }
     },
     "forwardPorts": [3000],
-    "postCreateCommand": "npm install"
+    "postCreateCommand": "npm install && npm install --save-dev vitest"
 }
